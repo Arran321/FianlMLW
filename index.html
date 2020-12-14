@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+
+  <style>
+        div{
+            display:inline-block; 
+        }
+</style>
+  <body>
+    <div>
+      <input type="color" id="cp1"/>
+      <input type="color" id="cp2"/>
+    </div>
+    <div>
+    <input type="checkbox" id="Circles">
+    <label for="Circles"> Circles</label><br>
+  </div>
+  <div><input type="checkbox" id="SimpleLines"> <label for="SimpleLines"> SimpleLines</label><br></div>
+  <div><input type="checkbox" id="OutlineShape"><label for="OutlineShape">OutlineShape</label><br></div> 
+  <div><input type="checkbox" id="DottedLines"><label for="DottedLines">DottedLines</label></div>  
+  <div><input type="checkbox" id="CenteredShape"> <label for="CenteredShape">CenteredShape</label><br></div>
+  <div><input type="checkbox" id="RingOfShapes"> <label for="RingOfShapes">RingOfShapes</label></div>
+  <div><input type="checkbox" id="SteppedHexagons"><label for="SteppedHexagons">SteppedHexagons</label></div>
+  <div><button id="begin">Generate Pattern</button></div>
+  <div><button>press S to save</button></div>
+    <script src="sketch.js"></script>
+    <script src="p5.svg.js"></script>
+    <script src="helper.js"></script>
+    <script src="Layers.js"></script>
+    <script src="Crystal.js"></script>
+</body></html>
